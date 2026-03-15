@@ -14,6 +14,17 @@ Why Geometry Nodes? Because it isn't actually a physics engine, it's a raw, proc
 ## Why This Matters in Engineering
 In engineering and software architecture, efficiency is everything. This project isn't about perfectly simulating real-world molecular air pressure, it's more about extreme optimization in times where you don't need pin-point precision results, just an overall understanding of the way the object and air are interacting.
 
-It proves that you don't always need to brute-force a massive physics simulation to get results. If you understand the fundamental math—like vector projection and boolean logic, you can engineer a lightweight, real-time visualizer that forces particles to mathematically wrap around complex geometry in milliseconds. 
+It proves that you don't always need to brute-force a massive physics simulation to get results. If you understand the fundamental math, like vector projection and boolean logic, you can engineer a lightweight, real-time visualizer that forces particles to mathematically wrap around complex geometry in milliseconds. 
 
 ---
+
+## Phase 1: System Architecture & Initializing the Grid
+
+To build a digital wind tunnel, you first need to generate the "air." In a procedural system, air isn't a volume, it's a highly dense array of independent data points.
+
+Here is how I structured the initial emitter before feeding it into the solver:
+
+* **The Array (Grid Node):** I generated a 5x5 meter mathematical grid and pushed the resolution to 200x200 vertices. This instantly gives us exactly 40,000 discrete coordinates in space. Let's treat these as our individual air particles.
+* **Orientation (Transform Geometry):** A standard grid spawns flat on the floor. I rotated it 90 degrees on the X-axis to stand it up, acting as the primary inlet/fan facing the test geometry.
+* **Data Isolation (Mesh to Points):** This is the crucial step. A standard grid is a connected mesh. If you push a mesh into a collision object, it stretches and tears. By piping it through a `Mesh to Points` node, I destroyed all the structural edges. Every single vertex is now a completely isolated, free-floating point in space with its own independent position data, ready to be injected with velocity.
+

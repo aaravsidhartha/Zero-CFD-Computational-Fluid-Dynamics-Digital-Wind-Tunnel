@@ -3,7 +3,7 @@ A lightweight, real-time digital wind tunnel built entirely with pure vector cal
 
 ![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
 
-## The Problem: Removing Need For Brute Computational Fluid Simulations
+## The Problem: Removing The Need For Brute Computational Fluid Simulations For Simple Visualisation
 If you want to run fluid simulations or test aerodynamics, you usually need massive compute power and hours to bake. Standard physics engines calculate pressure, viscosity, and density across millions of voxels. It is incredibly heavy and notoriously slow, especially if your laptop is a literal potato.
 
 I didn't want to wait hours just to visualize flow lines over a 3D mesh. I needed a real-time digital wind tunnel that runs instantly.

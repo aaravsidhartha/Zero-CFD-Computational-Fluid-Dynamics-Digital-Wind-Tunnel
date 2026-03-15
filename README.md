@@ -1,6 +1,8 @@
 # Zero-CFD-Computational-Fluid-Dynamics-Digital-Wind-Tunnel
 A lightweight, real-time digital wind tunnel built entirely with pure vector calculus and raycast sensors. Zero fluid simulations.
 
+![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
+
 ## The Problem: Removing Need For Brute Computational Fluid Simulations
 If you want to run fluid simulations or test aerodynamics, you usually need massive compute power and hours to bake. Standard physics engines calculate pressure, viscosity, and density across millions of voxels. It is incredibly heavy and notoriously slow, especially if your laptop is a literal potato.
 

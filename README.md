@@ -1,8 +1,7 @@
 # Zero CFD (Computational Fluid Dynamics) Digital Wind Tunnel
 A lightweight, real-time digital wind tunnel built entirely with pure vector calculus and raycast sensors. Zero fluid simulations.
 
-![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
-https://github.com/user-attachments/assets/fc2912c3-b5ba-41e0-8cee-98d4ee54890e
+![Image](https://github.com/user-attachments/assets/35a987b6-8020-4f05-a766-b10f74f2d24a)
 
 ## The Problem: Removing The Need For Brute Computational Fluid Simulations For Simple Visualisation
 If you want to run fluid simulations or test aerodynamics, you usually need massive compute power and hours to bake. Standard physics engines calculate pressure, viscosity, and density across millions of voxels. It is incredibly heavy and notoriously slow, especially if your laptop is a literal potato.
@@ -13,6 +12,8 @@ I didn't want to wait hours just to visualize flow lines over a 3D mesh. I neede
 Instead of relying on dedicated CFD (Computational Fluid Dynamics) software, I built a custom solver inside Blender's Geometry Nodes. 
 
 Why Geometry Nodes? Because it isn't actually a physics engine, it's a raw, procedural logic environment. It gave me the exact framework I needed to bypass default 3D collision physics entirely. By treating the 3D viewport as a blank coordinate grid, I could use the exact vector calculus I just studied for my 12th-grade board exams to write my own visual algorithm. No heavy fluid simulations needed.
+
+![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
 
 ## Why This Matters in Engineering
 In engineering and software architecture, efficiency is everything. This project isn't about perfectly simulating real-world molecular air pressure, it's more about extreme optimization in times where you don't need pin-point precision results, just an overall understanding of the way the object and air are interacting.

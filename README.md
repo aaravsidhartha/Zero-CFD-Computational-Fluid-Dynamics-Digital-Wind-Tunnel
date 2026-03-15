@@ -3,8 +3,6 @@ A lightweight, real-time digital wind tunnel built entirely with pure vector cal
 
 ![Image](https://github.com/user-attachments/assets/35a987b6-8020-4f05-a766-b10f74f2d24a)
 
-![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
-
 ## The Problem: Removing The Need For Brute Computational Fluid Simulations For Simple Visualisation
 If you want to run fluid simulations or test aerodynamics, you usually need massive compute power and hours to bake. Standard physics engines calculate pressure, viscosity, and density across millions of voxels. It is incredibly heavy and notoriously slow, especially if your laptop is a literal potato.
 
@@ -15,12 +13,14 @@ Instead of relying on dedicated CFD (Computational Fluid Dynamics) software, I b
 
 Why Geometry Nodes? Because it isn't actually a physics engine, it's a raw, procedural logic environment. It gave me the exact framework I needed to bypass default 3D collision physics entirely. By treating the 3D viewport as a blank coordinate grid, I could use the exact vector calculus I just studied for my 12th-grade board exams to write my own visual algorithm. No heavy fluid simulations needed.
 
-<img width="1569" height="718" alt="Image" src="https://github.com/user-attachments/assets/e2fed2c9-424c-4e6b-9808-495f8479d01a" />
+![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
 
 ## Why This Matters in Engineering
 In engineering and software architecture, efficiency is everything. This project isn't about perfectly simulating real-world molecular air pressure, it's more about extreme optimization in times where you don't need pin-point precision results, just an overall understanding of the way the object and air are interacting.
 
 It proves that you don't always need to brute-force a massive physics simulation to get results. If you understand the fundamental math, like vector projection and boolean logic, you can engineer a lightweight, real-time visualizer that forces particles to mathematically wrap around complex geometry in milliseconds. 
+
+<img width="1569" height="718" alt="Image" src="https://github.com/user-attachments/assets/e2fed2c9-424c-4e6b-9808-495f8479d01a" />
 
 ---
 

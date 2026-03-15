@@ -13,7 +13,7 @@ Instead of relying on dedicated CFD (Computational Fluid Dynamics) software, I b
 
 Why Geometry Nodes? Because it isn't actually a physics engine, it's a raw, procedural logic environment. It gave me the exact framework I needed to bypass default 3D collision physics entirely. By treating the 3D viewport as a blank coordinate grid, I could use the exact vector calculus I just studied for my 12th-grade board exams to write my own visual algorithm. No heavy fluid simulations needed.
 
-![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
+<img width="1569" height="718" alt="Image" src="https://github.com/user-attachments/assets/e2fed2c9-424c-4e6b-9808-495f8479d01a" />
 
 ## Why This Matters in Engineering
 In engineering and software architecture, efficiency is everything. This project isn't about perfectly simulating real-world molecular air pressure, it's more about extreme optimization in times where you don't need pin-point precision results, just an overall understanding of the way the object and air are interacting.
@@ -120,7 +120,8 @@ To make the flow lines glow like a thermal camera without destroying the engine'
 ---
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/90c317c1-f909-42ac-9721-7af7cc88a70d" />
-<img width="1569" height="718" alt="Image" src="https://github.com/user-attachments/assets/e2fed2c9-424c-4e6b-9808-495f8479d01a" />
+
+![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
 
 ## System Limitations & The Next Iteration
 

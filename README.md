@@ -3,6 +3,8 @@ A lightweight, real-time digital wind tunnel built entirely with pure vector cal
 
 ![Image](https://github.com/user-attachments/assets/35a987b6-8020-4f05-a766-b10f74f2d24a)
 
+![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
+
 ## The Problem: Removing The Need For Brute Computational Fluid Simulations For Simple Visualisation
 If you want to run fluid simulations or test aerodynamics, you usually need massive compute power and hours to bake. Standard physics engines calculate pressure, viscosity, and density across millions of voxels. It is incredibly heavy and notoriously slow, especially if your laptop is a literal potato.
 
@@ -120,8 +122,6 @@ To make the flow lines glow like a thermal camera without destroying the engine'
 ---
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/90c317c1-f909-42ac-9721-7af7cc88a70d" />
-
-![Image](https://github.com/user-attachments/assets/d267b723-05ed-4044-9d7d-5af1db2186d3)
 
 ## System Limitations & The Next Iteration
 
